@@ -1,0 +1,15 @@
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
+[user]
+	name = Tom Hastjarjanto
+	email = tom@intellicode.nl
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[push]
+	default = matching
+[credential]
+	helper = osxkeychain
