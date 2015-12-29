@@ -1,0 +1,9 @@
+export DOCKER_HOST=tcp://127.0.0.1:2375
+export GOPATH=$HOME/goworkspace
+export ANDROID_HOME=/Users/tom/Library/Android/sdk/
+export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+export CLICOLOR=1
+export LSCOLORS=ExFxCxDxBxegedabagacad
+alias ls='ls -G -la'
+export PS1="\[\e[00;32m\]\u\[\e[0m\]\[\e[00;35m\]@\[\e[0m\]\[\e[00;36m\]\w\[\e[0m\]\[\e[00;37m\]\$(__git_ps1) \\$ \[\e[0m\]"
